@@ -1,0 +1,163 @@
+body {
+    
+}
+
+h2 {
+    padding-left: 85%;
+}
+.cart-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 8px;
+    text-align: right;
+    border-bottom: 1px solid #ddd; 
+    border-right: 1px solid #ddd; 
+}
+.cart-table th {
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd; 
+    border-left: 1px solid #ddd; 
+}
+
+.cart-table img {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; 
+}
+
+.button {
+    padding: 1px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(6, 14, 162);
+    color: #ffffff;
+}
+.button:hover {
+    background-color: #575757;
+}
+
+/* taswqy copy */
+.containerm {
+  width: 400px;
+    margin: -405px -189px -19px 51px;
+    border: 2px solid;
+    padding: 12px;
+    border-bottom: none;
+    padding-left: 12px;
+  }
+
+.containerm1 {
+  width: 400px;
+    margin: -450px -189px -19px 51px;
+    border: 2px solid;
+    padding: 12px;
+    border-bottom: none;
+    padding-left: 12px;
+  }
+  
+  .header {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .header h5 {
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+  
+  .body {
+    font-size: 16px;
+    text-align: right;
+  }
+  
+  .points {
+    display: flex;
+   justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .points span {
+    font-weight: bold;
+  }
+  
+  .total-price,
+  .discount,
+  .new-total,
+  .shipping,
+  .total-incl-tax,
+  .total-excl-tax {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .total-price span:first-child,
+  .discount span:first-child,
+  .new-total span:first-child,
+  .shipping span:first-child,
+  .total-incl-tax span:first-child,
+  .total-excl-tax span:first-child {
+    color: #000000;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer button {
+    padding: 10px 20px;
+    background-color: #0b1067;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .sidebaar {
+    width: 250px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    contain: layout;
+    border: 1px solid;
+    height: fit-content;
+    padding-left: 0%;
+    text-align:right;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    padding: 10px;
+    position: relative;
+  }
+  
+  .menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+  }
+
+  .menu li:hover {
+    background-color: rgba(193, 222, 222, 0.667);
+  }
+
+h4 {
+padding-left: 70%;
+}

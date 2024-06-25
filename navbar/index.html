@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Menu </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+<form action="/search">
+  <input type="text" name="search" placeholder=" ....البحث عن منتجات,اقسام">
+</form>
+
+  <nav>
+    <div class="wrapper">
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#">احتياجات الام والطفل</a></li>
+        <li><a href="#"> العناية بالجمال </a></li>
+        <li><a href="#"> العناية الشخصية </a></li>
+        
+      
+        <li>
+          <a href="#" class="desktop-item"> الادوية والعلاجات </a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <header>الادوية الوصفية</header>
+                <ul class="mega-links">
+                  <li><a href="#"> المسكنات </a></li>
+                  <li><a href="#">ادوية خافضة للحرارة</a></li>
+                  <li><a href="#"> ادوية الاذن </a></li>
+                  <li><a href="#"> قطرات ومرطبات العين </a></li>
+                  <li><a href="#">ادوية الجهاز الهضمي </a></li>
+                  <li><a href="#">ادوية النقرس </a></li>
+                  <li><a href="#"> ادوية القلب والضغط</a></li>
+                  <li><a href="#"> الادوية الهرمونية </a></li>
+                  <li><a href="#">العلاج الكيماوي </a></li>
+                  <li><a href="#">ادوية السكري </a></li>
+                  <li><a href="#"> ادوية الكلي </a></li>
+                  <li><a href="#">  العظام والمفاصل </a></li>
+                  <li><a href="#">  الجهاز التنفسي  </a></li>
+                  <li><a href="#">  مراهم الجلد  </a></li>
+                  <li><a href="#">  ادوية الجهاز البولي  </a></li>
+               </ul>
+              </div>
+              <div class="row">
+                <header>العناية بالفم والاسنان</header>
+                <ul class="mega-links">
+                  <li><a href="#">علاجات الفم </a></li>
+                  <li><a href="#"> ادوية الجلدية </a></li>
+                  <li><a href="#">مخدر موضعي  </a></li>
+                  <li><a href="#">علاج الحروق والجروح </a></li>
+                  <li><a href="#">العناية بالجروح</a></li>
+                  <li><a href="#">كريمات مرطبة للجلد </a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>المعدة والقولون</header>
+                <ul class="mega-links">
+                  <li><a href="#">ادوية الحموضة  </a></li>
+                  <li><a href="#">ملينات الامساك  </a></li>
+                  <li><a href="#">ادوية البواسير  </a></li>
+                  <li><a href="#">ادوية المعدة  </a></li>
+                  <li><a href="#"> ادوية الانتفاخات </a></li>
+                  <li><a href="#"> ادوية الاطفال والمواليد </a></li>
+                  <li><a href="#"> ادوية الزكام  والسعال اطفال </a></li>
+                  <li><a href="#"> ادوية احتقان الانف </a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>مسكنات الالم</header>
+                <ul class="mega-links">
+                  <li><a href="#"> مسكنات الالام الموضعية </a></li>
+                  <li><a href="#">مسكنات الصداع  </a></li>
+                  <li><a href="#"> مسكنات الالام للمعدة  </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">الفيتامينات والاغذية الصحية</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+</body>
+</html>

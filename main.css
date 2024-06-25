@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+/* body {
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+} */
+
+.c1 {
+  direction: rtl;
+  text-align: right;
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.tab.active {
+  background-color: #9c7aac;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  width: 15%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.tab.active:hover {
+  opacity: 0.7;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 15px;
+  width: fit-content;
+}
+label:not(.discount-code)::after {
+  content: "\f05a";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding: 5px;
+  color: #595858;
+}
+input[type="text"] {
+  width: 100%;
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #9c7aac;
+  padding: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+input[type="text"]:nth-child(2) {
+  border: 0;
+  border-top: 2px solid #f0f0f0;
+  padding-top: 10px;
+  width: fit-content;
+  margin-left: 45px;
+}
+input:nth-child(2) input::placeholder {
+  font-size: 15px;
+  font-weight: bold;
+  color: #7777778f;
+}
+.form-group1 {
+  margin-bottom: 15px;
+  display: flex;
+  width: 100%;
+}
+.form-group2 {
+  flex-wrap: wrap;
+  width: 100%;
+}
+button {
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.number-phone {
+  background-color: #9c27b0;
+  width: 100px;
+}
+.discount {
+  background-color: #032640;
+  width: 100px;
+}
+hr {
+  margin: 30px 0;
+  border: 1px solid #ddd;
+}
+.payment-method .pay {
+  margin-bottom: 10px;
+  font-size: 20px;
+  position: relative;
+}
+.payment-method svg {
+  width: 60px;
+  position: absolute;
+  transform: translateY(-50%);
+  padding-bottom: 20px;
+  left: 0;
+}
+
+@media (max-width: 634px) {
+  .form-group1 {
+    margin-bottom: 15px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .number-phone,
+  .discount {
+    width: 100%;
+  }
+}
